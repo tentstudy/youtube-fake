@@ -1,0 +1,19 @@
+#content{
+	width: 800px;
+	height: 500px;
+	margin: 0 auto;
+	background-color: #f1f1f1f1; 
+	text-align: center;
+}
+.uploadfile{
+	margin-top: 80px;
+}
+.uploadfile a,a:hover{
+	color: black;
+	text-decoration: none;
+}
+#btn-upload-1{
+	/*padding: 10px 50px ;*/
+	padding-left: 50px;
+	padding-right: 50px;
+}

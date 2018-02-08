@@ -1,0 +1,182 @@
+	body {
+	    font-family: sans-serif;
+	}
+
+	.navbar {
+		background-color: white;
+		position: sticky;
+	    min-width:1000px;
+	    box-shadow: 0 0 5px 1px;
+	    border: none;
+	    border-radius: 0px;
+		margin-bottom: 0;
+	}
+
+	.menu {
+	    padding-left: 0px;
+	    padding-top: 12px;
+	}
+
+	.menu li {
+	    display: inline-block;
+	    margin-left: 30px;
+	}
+
+	i,
+	.fa {
+	    font-size: 20px;
+	    color: #a0a0a0;
+	}
+
+	.logo {
+	    font-size: 22px;
+	    color: red;
+	}
+
+	span {
+	    font-family: arial;
+	    font-size: 20px;
+	}
+	/**/
+
+	.search {
+		margin-top: 0px;
+		width: 30%;
+		min-width: 350px;
+	    margin-left: 70px !important;
+	    border: 1px solid #ddd;
+	    border-radius: 2px;
+	}
+
+	.ic-search {
+	    font-size: 20px;
+	}
+
+	.search button {
+	    background: #f8f8f8;
+	    width: 65px;
+	    height: 28px;
+	    border-top: none;
+	    border-right: none;
+	    border-bottom: none;
+	    border-left: 1px solid #ddd;
+	}
+
+	.search button:hover {
+	    background: #a0a0a0a0;
+	}
+
+	.search input {
+	    width: 70%;
+	    outline: none;
+	    padding-left: 10px;
+	    padding-top: 10px;
+	    font-size: 16px;
+	    height: 24px;
+	    border: none;
+	}
+
+	.fa-keyboard-o {
+	    padding-right: 10px;
+	    padding-top: 5px;
+	    color: black;
+	}
+	/**/
+
+	.right {
+	    padding-top: 2px;
+	    float: right;
+	}
+
+	.user {
+	    margin-right: 40px;
+	}
+	/*Thong bao*/
+
+	.bell {
+	    padding-top: 0;
+	    width: 500px;
+	    height: 400px;
+	}
+
+	.row {
+	    width: 100%;
+	    margin-left: 0;
+	}
+
+	.message:hover {
+	    background: #e5e5e5 !important;
+	}
+
+	.drop-head {
+	    font-size: 18px;
+	    height: 60px;
+	    background: #ddd;
+	}
+
+	.drop-head img {
+	    width: 24px;
+	    margin-right: 10px;
+	}
+
+	.drop-head ul {
+	    padding-left: 0px;
+	    padding-top: 15px;
+	}
+	/**/
+
+	.user .row {
+	    min-height: 40px;
+	    padding-top: 10px;
+	}
+
+	.th img {
+	    width: 24px;
+	}
+
+	.th .row {
+	    height: 40px;
+	    padding-top: 10px;
+	}
+	/*hide and show menu-letf*/
+
+		.sidenav {
+		margin-top: 51px;
+		height: 100%;
+		width: 0;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		background-color: #f5f5f5;
+		overflow-x: hidden;
+		transition: 0.01s;
+		padding-top: 10px;
+		}
+		.sidenav a .row{
+		height: 40px;
+		padding-top: 10px;
+		text-decoration: none;
+		font-size: 14px;
+		color: black;
+		display: block;
+		transition: 0s;
+		}
+		.sidenav .closebtn {
+		position: absolute;
+		top: 0;
+		right: 25px;
+		font-size: 36px;
+		margin-left: 50px;
+		}
+		#content { 
+		transition: margin-left .01s;
+		padding: 16px;
+		}
+		@media screen and (max-height: 450px) {
+		.sidenav {padding-top: 15px;}
+		.sidenav a {font-size: 18px;}
+		}
+	.sidenav.show {
+		display: block !important;
+	}

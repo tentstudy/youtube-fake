@@ -1,0 +1,29 @@
+#content{
+	margin: auto;
+}
+.img_head{
+	width: 32px;
+}
+.head{
+	margin-bottom: 30px;
+}
+.name{
+	margin-bottom: 5px;
+	padding-left: 15px;
+}
+.name_head{
+	display: inline-block;
+	margin-top: 10px;
+}
+.row img{
+	width: 100%;
+}
+.name_video{
+	color: black;
+}
+p{
+	color: #9f9f9f;
+}
+/*.row a:hover{
+	background: none;
+}*/

@@ -1,0 +1,97 @@
+a{
+	color: black;
+}
+a:hover{
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+}
+.continue-autoplay{
+	width: 100%;
+	height: 30px;
+	padding-left: 10px;
+}
+.continue{
+	padding-top: 3px;
+}
+.auto-play{
+	padding-right: 50px;
+}
+.shadow {
+	box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.6);
+}
+#labelAutoplay {
+	display: inline-block;
+	position: relative;
+	width: 38px;
+	border-radius: 15px;
+	background: #93c9f3;
+	height: 16px;
+	transition: 0.2s;
+	cursor: pointer;
+	vertical-align: bottom;
+	margin-bottom: 8px;
+}
+#labelAutoplay .circle {
+	position: absolute;
+	width: 21px;
+	height: 21px;
+	border-radius: 50%;
+	background: #2693e6;
+	display: inline-block;
+	top: -3px;
+	left: 16px;
+	transition: 0.2s;
+	cursor: pointer;
+}
+.auto-play > span{
+	display: inline-block;
+	padding-bottom: 2px; 
+	padding-right: 5px;
+}
+.video:first-child{
+	padding-top: 0;
+}
+.video{
+	height: 130px;
+	padding: 18px 10px;
+}
+.img-next-video{
+	position: relative;
+}
+.img-next-video img{
+	width: 170px;
+}
+.time-video{
+	position: absolute;
+	right: 5px;
+	bottom: 2px;
+	font-size: 14px;
+
+}
+.video span{
+	font-family: Roboto;
+	color: gray;
+}
+.info-next-video{
+	padding-left: 15px;
+}
+.info-next-video .name-video span{
+	font-size: 18px;
+	color: black;
+}
+.channel-video span{
+	font-size: 16px;
+}
+.views-video span{
+	font-size: 12px;
+}
+.new-video{
+	height: 20px;
+	width: 30px;
+	background-color: rgb(245,  245, 245);
+	padding-left: 3px;
+}
+.new-video span{
+	font-size: 12px;
+}
